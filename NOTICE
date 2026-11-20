@@ -1,0 +1,9 @@
+QPUTwin: Calibration-Faithful Digital Twins of Trapped-Ion and Superconducting Quantum Processors
+Copyright 2026 Koustav Kumar Mondal <erkoustavkumar@gmail.com>
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The architecture diagrams (docs/assets/diagrams) embed subsets of the Geist and
+Geist Mono typefaces (Vercel), Instrument Serif (Instrument) and Noto Serif
+(Google). All four are licensed under the SIL Open Font License 1.1
+(https://openfontlicense.org).

@@ -1,0 +1,168 @@
+# QPUTwin documentation site — Koustav Kumar Mondal <erkoustavkumar@gmail.com>
+#   pip install -r requirements.txt
+#   mkdocs serve                          # live preview on http://127.0.0.1:8088
+#   mkdocs build --strict                 # static site in ./site
+# Published at https://koustav.isroot.in/qputwin-docs/ by .github/workflows/deploy.yml
+site_name: QPUTwin
+site_url: https://koustav.isroot.in/qputwin-docs/
+site_description: >-
+  QPUTwin: Calibration-Faithful Digital Twins of Trapped-Ion and Superconducting Quantum Processors.
+  Open-source quantum digital twin and QPU emulator with calibrated noise models, density-matrix and
+  quantum-trajectory engines, OpenQASM 2/3, native-gate compilation, SABRE routing and benchmark telemetry.
+dev_addr: 127.0.0.1:8088                # not :8000, which the QPUTwin orchestrator uses
+copyright: "© 2026 Koustav Kumar Mondal · erkoustavkumar@gmail.com · Apache-2.0"
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/chip
+    repo: material/source-repository
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])'
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: false
+  social:
+    - icon: material/email
+      link: mailto:erkoustavkumar@gmail.com
+      name: Koustav Kumar Mondal
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - getting-started/index.md
+      - Installation: getting-started/installation.md
+      - Quick start: getting-started/quickstart.md
+      - "Tutorial: four QPUs, one circuit": getting-started/tutorial.md
+  - Concepts:
+      - concepts/index.md
+      - Quantum digital twins: concepts/digital-twins.md
+      - Architecture: concepts/architecture.md
+      - Execution pipeline: concepts/execution-pipeline.md
+      - Emulated devices: concepts/devices.md
+  - User guide:
+      - guide/index.md
+      - Submitting jobs: guide/submitting-jobs.md
+      - OpenQASM support: guide/openqasm.md
+      - Native compilation: guide/compilation.md
+      - Noise models: guide/noise.md
+      - Simulation engines: guide/engines.md
+      - Qubit routing: guide/routing.md
+      - Gate-duration model: guide/timing.md
+      - Asynchronous jobs: guide/async-jobs.md
+      - Calibration data: guide/calibration.md
+      - Telemetry: guide/telemetry.md
+      - Python library: guide/python-library.md
+  - Reference:
+      - reference/index.md
+      - HTTP API: reference/api.md
+      - Request parameters: reference/parameters.md
+      - Response schema: reference/responses.md
+      - Errors: reference/errors.md
+      - Configuration: reference/configuration.md
+      - Calibration file format: reference/calibration-format.md
+  - Operations:
+      - operations/index.md
+      - Deployment: operations/deployment.md
+      - Scaling & high availability: operations/scaling.md
+      - Security: operations/security.md
+      - Monitoring: operations/monitoring.md
+      - Troubleshooting: operations/troubleshooting.md
+  - Research:
+      - research/index.md
+      - Benchmark results: research/benchmarks.md
+      - Circuit-family benchmarks: research/circuit-benchmarks.md
+      - Load & stress testing: research/load-testing.md
+      - Simulator comparison: research/simulator-comparison.md
+      - Validation: research/validation.md
+      - Reproducibility: research/reproducibility.md
+      - Limitations: research/limitations.md
+  - Development:
+      - development/index.md
+      - Project layout: development/project-layout.md
+      - Testing: development/testing.md
+      - Diagrams & figures: development/diagrams.md
+  - FAQ: faq.md
+  - License & data sources: license.md

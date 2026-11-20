@@ -1,0 +1,41 @@
+/* QPUTwin docs theme — Koustav Kumar Mondal <erkoustavkumar@gmail.com> */
+:root {
+  --md-primary-fg-color: #1c5cab;
+  --md-primary-fg-color--light: #2a78d6;
+  --md-primary-fg-color--dark: #104281;
+  --md-accent-fg-color: #eb6834;
+  --qt-surface: #fcfcfb;
+  --qt-border: #e3e2dd;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #3987e5;
+  --md-primary-fg-color--light: #5598e7;
+  --md-primary-fg-color--dark: #256abf;
+  --md-accent-fg-color: #d95926;
+  --md-default-bg-color: #161615;
+  --qt-surface: #1f1f1e;
+  --qt-border: #383835;
+}
+.md-typeset h1 { font-weight: 700; letter-spacing: -0.02em; }
+.md-typeset h2 { font-weight: 650; letter-spacing: -0.01em; }
+/* hero */
+.qt-hero { padding: 2.2rem 0 1.4rem; }
+.qt-hero h1 { font-size: 2.4rem; line-height: 1.15; margin-bottom: .6rem; }
+.qt-hero p.lead { font-size: 1.05rem; max-width: 46rem; color: var(--md-default-fg-color--light); }
+.qt-hero .md-button { margin: .4rem .5rem .4rem 0; }
+/* cards */
+.qt-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: .9rem; margin: 1.2rem 0; }
+.qt-card { border: 1px solid var(--qt-border); border-radius: 12px; padding: 1rem 1.1rem; background: var(--qt-surface); }
+.qt-card h3 { margin: 0 0 .35rem; font-size: .95rem; }
+.qt-card p { margin: 0; font-size: .78rem; color: var(--md-default-fg-color--light); }
+/* figures & diagrams: keep a light card so white-background graphics read in both modes */
+.md-typeset figure img, .md-typeset img.qt-diagram { border-radius: 10px; }
+[data-md-color-scheme="slate"] .md-typeset figure img,
+[data-md-color-scheme="slate"] .md-typeset img.qt-diagram { background: #ffffff; padding: 6px; }
+.md-typeset figure figcaption { font-size: .74rem; color: var(--md-default-fg-color--light); max-width: 46rem; margin: .4rem auto 0; }
+.md-typeset table:not([class]) { font-size: .74rem; }
+.md-typeset table:not([class]) th { white-space: nowrap; }
+.md-typeset .qt-kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .8rem; margin: 1rem 0; }
+.md-typeset .qt-kpi div { border: 1px solid var(--qt-border); border-radius: 12px; padding: .8rem 1rem; background: var(--qt-surface); }
+.md-typeset .qt-kpi b { display: block; font-size: 1.5rem; line-height: 1.2; }
+.md-typeset .qt-kpi span { font-size: .72rem; color: var(--md-default-fg-color--light); }
