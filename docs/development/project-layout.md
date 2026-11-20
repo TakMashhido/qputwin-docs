@@ -34,7 +34,7 @@ test_benchmark.py               47 live-stack integration + benchmark tests
 benchmarks/                     run_benchmarks.py (21 experiments), circuits.py, plot_figures.py, results/ (JSON + JUnit), figures/ (PDF/SVG/PNG + CSV)
 ```
 
-This documentation site has its own repository, [qputwin-docs](https://github.com/TakMashhido/qputwin-docs).
+The source code is in the [Cloudslab/QPUTwin](https://github.com/Cloudslab/QPUTwin) repository. This documentation site has its own repository, [qputwin-docs](https://github.com/TakMashhido/qputwin-docs).
 
 ## Dependency boundaries
 

@@ -20,7 +20,7 @@ No quantum SDK is required. QPUTwin does not depend on Qiskit, Cirq, pyQuil, Bra
 ## Option A: Docker Compose (recommended)
 
 ```bash
-git clone <your-fork-url> qputwin && cd qputwin
+git clone https://github.com/Cloudslab/QPUTwin.git qputwin && cd qputwin
 docker compose up -d --build --wait
 ```
 
@@ -67,6 +67,8 @@ docker compose down --rmi local  # also remove the images
 ```
 
 ## Option B: local Python environment (`uv`)
+
+From a clone of the repository (see Option A):
 
 ```bash
 uv sync                                    # Python env with every extra + dev tools

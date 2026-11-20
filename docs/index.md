@@ -69,6 +69,7 @@ Asynchronous jobs on a durable shared queue, worker replicas, API keys, Promethe
 ## A first job
 
 ```bash
+git clone https://github.com/Cloudslab/QPUTwin.git qputwin && cd qputwin
 docker compose up -d --build
 curl -s localhost:8000/v1/jobs -H 'content-type: application/json' -d '{
   "backend": "iqm_emerald",

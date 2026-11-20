@@ -5,6 +5,9 @@
 # Published at https://koustav.isroot.in/qputwin-docs/ by .github/workflows/deploy.yml
 site_name: QPUTwin
 site_url: https://koustav.isroot.in/qputwin-docs/
+repo_url: https://github.com/Cloudslab/QPUTwin
+repo_name: Cloudslab/QPUTwin
+edit_uri: ""                            # the pages live in qputwin-docs, not in the code repository
 site_description: >-
   QPUTwin: Calibration-Faithful Digital Twins of Trapped-Ion and Superconducting Quantum Processors.
   Open-source quantum digital twin and QPU emulator with calibrated noise models, density-matrix and
