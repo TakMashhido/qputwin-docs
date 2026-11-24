@@ -1,6 +1,6 @@
 # QPUTwin documentation
 
-Source of the QPUTwin documentation site, published at **<https://koustav.isroot.in/qputwin-docs/>**.
+Source of the QPUTwin documentation site, published at **<https://koustavmondal.com/qputwin-docs/>**.
 
 QPUTwin provides calibration-faithful digital twins of trapped-ion and superconducting quantum processors behind one OpenQASM 2.0/3.x API.
 
