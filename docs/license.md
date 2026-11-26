@@ -9,7 +9,7 @@ description: The Apache-2.0 license terms of QPUTwin and the sources of its pack
 
 QPUTwin is released under the **Apache License 2.0**. You may use, modify and redistribute it, including commercially, provided you keep the copyright and license notices (`NOTICE`) and state any changes you made. The license also grants a patent licence from contributors.
 
-Copyright 2026 Koustav Kumar Mondal · erkoustavkumar@gmail.com
+Copyright 2026 Koustav Kumar Mondal · koustav@koustavmondal.com
 
 ## Data sources
 

@@ -15,7 +15,7 @@ hide:
 [Quick start](getting-started/quickstart.md){ .md-button }
 [Benchmark results](research/benchmarks.md){ .md-button }
 
-*Koustav Kumar Mondal · erkoustavkumar@gmail.com*
+*Koustav Kumar Mondal · koustav@koustavmondal.com*
 
 </div>
 
