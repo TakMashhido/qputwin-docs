@@ -27,7 +27,7 @@ Figure conventions:
 
 ## This website
 
-The source of this website is the [qputwin-docs](https://github.com/TakMashhido/qputwin-docs) repository. Every push to its `main` branch rebuilds and publishes it at <https://koustav.isroot.in/qputwin-docs/>. To preview it locally:
+The source of this website is the [qputwin-docs](https://github.com/TakMashhido/qputwin-docs) repository. Every push to its `main` branch rebuilds and publishes it at <https://koustavmondal.com/qputwin-docs/>. To preview it locally:
 
 ```bash
 pip install -r requirements.txt

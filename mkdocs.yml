@@ -2,9 +2,9 @@
 #   pip install -r requirements.txt
 #   mkdocs serve                          # live preview on http://127.0.0.1:8088
 #   mkdocs build --strict                 # static site in ./site
-# Published at https://koustav.isroot.in/qputwin-docs/ by .github/workflows/deploy.yml
+# Published at https://koustavmondal.com/qputwin-docs/ by .github/workflows/deploy.yml
 site_name: QPUTwin
-site_url: https://koustav.isroot.in/qputwin-docs/
+site_url: https://koustavmondal.com/qputwin-docs/
 repo_url: https://github.com/Cloudslab/QPUTwin
 repo_name: Cloudslab/QPUTwin
 edit_uri: ""                            # the pages live in qputwin-docs, not in the code repository
