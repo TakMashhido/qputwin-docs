@@ -14,4 +14,4 @@ mkdocs build --strict   # static site in ./site
 
 Every push to `main` rebuilds the site and publishes it with GitHub Pages (`.github/workflows/deploy.yml`).
 
-Koustav Kumar Mondal · erkoustavkumar@gmail.com · Apache-2.0
+Koustav Kumar Mondal · koustav@koustavmondal.com · Apache-2.0

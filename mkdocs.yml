@@ -1,4 +1,4 @@
-# QPUTwin documentation site — Koustav Kumar Mondal <erkoustavkumar@gmail.com>
+# QPUTwin documentation site — Koustav Kumar Mondal <koustav@koustavmondal.com>
 #   pip install -r requirements.txt
 #   mkdocs serve                          # live preview on http://127.0.0.1:8088
 #   mkdocs build --strict                 # static site in ./site
@@ -13,7 +13,7 @@ site_description: >-
   Open-source quantum digital twin and QPU emulator with calibrated noise models, density-matrix and
   quantum-trajectory engines, OpenQASM 2/3, native-gate compilation, SABRE routing and benchmark telemetry.
 dev_addr: 127.0.0.1:8088                # not :8000, which the QPUTwin orchestrator uses
-copyright: "© 2026 Koustav Kumar Mondal · erkoustavkumar@gmail.com · Apache-2.0"
+copyright: "© 2026 Koustav Kumar Mondal · koustav@koustavmondal.com · Apache-2.0"
 
 theme:
   name: material
@@ -109,7 +109,7 @@ extra:
   generator: false
   social:
     - icon: material/email
-      link: mailto:erkoustavkumar@gmail.com
+      link: mailto:koustav@koustavmondal.com
       name: Koustav Kumar Mondal
 
 nav:
